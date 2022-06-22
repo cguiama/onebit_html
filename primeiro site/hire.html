@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <a href="./index.html"><img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/SpaceX-Logo.svg/2560px-SpaceX-Logo.svg.png"
+                alt="Logo Space X" width="500">Home |</a>
+        <a href="./spaceships.html">The Spaceships</a> |
+        <a href="./hire.html">Hire Us</a>
+        <hr>
+    </header>
+
+    <section>
+        <h1>Hire Us Now</h1>
+        <p>Leave a message to request one of our services and we will get in touch as soon as possible.</p>
+
+        <form action="">
+            <div>
+                <label for="namelabel">Nome:</label>
+                <input type="text" name="namelabel" id="namelabel"> -
+                <label for="emaillabel">Email: </label><input type="email" name="emaillabel" id="emaillabel">
+            </div><br>
+            <div>
+                <label for="spaceships">Spaceships</label>
+                <select name="spaceships" id="spaceships">
+                    <option value="Falcon 9">Falcon 9</option>
+                    <option value="Falcon Heavy">Falcon Heavy</option>
+                </select> |
+                <input type="search" list="online-stores">
+                <datalist id="online-stores" style="display:hidden;">
+                    <option value="Amazon.com">
+                    <option value="Zappos">
+                    <option value="Buy.com">
+                    <option value="Apple Store">
+                    <option value="Threadless">
+                </datalist>
+            </div><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+</body>
+
+</html>
