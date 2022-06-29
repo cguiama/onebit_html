@@ -41,9 +41,6 @@ if (aceleracao() == true) {
         if (velNave <= 80) {
             alert("A nave está numa boa velocidade");
         }
-        else {
-            confirma = false;
-        }
     }
 
 }
