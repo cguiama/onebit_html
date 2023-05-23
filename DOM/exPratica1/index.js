@@ -45,6 +45,8 @@ function removeContact() {
 	const titles = document.getElementsByTagName("h3");
 	const contacts = document.getElementsByTagName("ul");
 
+	//Nesta função, criamos o removeChild passando as tags que foram criandas com o append, sempre na ultima posição da Lista
+
 	contactSection.removeChild(titles[titles.length - 1]);
 	contactSection.removeChild(contacts[contacts.length - 1]);
 }
