@@ -4,16 +4,28 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Praticando Manipulação de DOM</title>
+		<title>Enviando valores do DOM para o JS</title>
+		<script src="index.js"></script>
 	</head>
 	<body>
-		<h1>Praticando Manipulação de DOM.</h1>
+		<h1>Enviando os valores do DOM para o JS</h1>
+		<hr />
 
-		<h2>Minha Agenda</h2>
-		<button onclick="addContact()">Novo Contato</button>
-		<button onclick="removeContact()">Remover Contato</button>
+		<h2>Registre-se!</h2>
 
-		<section id="contactsList"></section>
-		<script src="./index.js"></script>
+		<section>
+			<label for="username">Nome de Usuário:</label>
+			<input type="text" name="username" id="username" /><br /><label for=""
+				>Senha:</label
+			><input type="password" name="" id="password" />
+			<br />
+			<label for="passwordConfirmation">Confime sua Senha:</label
+			><input
+				type="password"
+				name="passwordConfirmation"
+				id="passwordConfirmation"
+			/><br />
+			<button onclick="register(this.parentNode)">Registrar</button>
+		</section>
 	</body>
 </html>
